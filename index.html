@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!---------Tailwindcss Code-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+   
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+
+</head>
+<body>
+
+    <div class="container  max-w-full  overflow-hidden">
+
+        <div  class="first__header flex justify-between p-3"  >
+            <div class="logo1">
+                <h1><span class="text-orange-400  text-center">Meda</span>Homes</h1>
+            </div>
+
+            <div  class="icon  justify-end">
+                <i class="ri-menu-2-line  icon  text-xl" onclick="showMenu()"></i>
+            </div>
+        </div>
+
+        <!----------HEADER SECTION------->
+        <div class="header container max-w-full"  id="header">
+
+
+           
+         
+
+
+
+            <div class="header__wrapper  max-w-full  flex justify-around"  id="header__wrapper">
+
+                <i class="ri-close-line  icons  flex text-3xl justify-end  px-2"  onclick="hideMenu()"></i>
+
+           
+
+
+            <div class="navlink">
+ <ul  class="flex justify-between gap-3">
+    <li><a href="#">Buy</a></li>
+    <li><a href="#">Sell</a></li>
+    <li><a href="#">Rent</a></li>
+    <li><a href="#">Mortage</a></li>
+ </ul>
+            </div>
+
+            <div class="logo">
+                <h1><span class="text-orange-400  text-center">Meda</span>Homes</h1>
+            </div>
+
+            <div class="side__menu">
+                <ul  class="flex justify-between gap-4">
+                    <li><a href="#">Manage rentals</a></li>
+                    <li><a href="#">Sign Up / Sign In.</a></li>
+                    <li><button  class="bg-orange-400 px-4 rounded-xl">Add a property</button></li>
+                </ul>
+            </div>
+
+            </div>
+        </div>
+
+         <!----------HERO SECTION------->
+         <div class="hero container max-w-full">
+
+            <div class="hero__wrapper text-center  flex flex-col justify-center">
+                <div class="hero__text  mt-22">
+                    <h1  class="text-white text-6xl  pb-4">Home Sweet Home</h1>
+                    <p class="text-white text-xl  pb-5">Helping millions find their perfect homes</p>
+                </div>
+
+                <div class="hero__search   flex justify-between">
+                    <input type="text"  placeholder="Enter an address,neighborhood,city or ZIP code ">
+                   
+                    <i class="ri-search-line  bg-orange-400 text-4xl rounded-lg  text-white  iconis"></i>
+
+                </div>
+              
+            </div>
+
+         </div>
+
+         <!--------HOME FOR SALE SECTION----->
+         <div class="home__sale  max-w-full pt-10  z-10">
+
+            <div class="homesale__heading">
+                <h1 class="font-bold text-center text-3xl">Homes for sale in Lagos, Nigeria</h1>
+            </div>
+
+            <div class="homesale__wrapper  flex justify-between gap-5  p-24">
+
+                <!---------BOX 1------->
+                <div class="homesale__box flex flex-col">
+                    <div  class="homesale__img">
+                        <img src="Image/Frame 52 (1).png" alt="">
+                    </div>
+
+                    <div class="homesale__text bg-white text-center">
+                        <h1  class="font-bold  pt-4">250, Admiralty way</h1>
+                        <p  class="opacity-80  pt-1">250, Admiralty way</p>
+                        <p  class="opacity-80">Lekki, Lagos State</p>
+                        <p  class="opacity-80  pb-4">Studio-#bed ! $35,00 - 3,700</p>
+                    </div>
+                </div>
+
+                <!---------BOX 2------->
+                <div class="homesale__box flex flex-col">
+                    <div  class="homesale__img">
+                        <img src="Image/Frame 52 (2).png" alt="">
+                    </div>
+
+                    <div class="homesale__text bg-white text-center">
+                        <h1  class="font-bold  pt-4">Sea side estate</h1>
+                        <p  class="opacity-80  pt-1">Sea side estate</p>
+                        <p  class="opacity-80">Ajah, Lagos State</p>
+                        <p  class="opacity-80  pb-4">Studio-#bed ! $35,00 - 3,700</p>
+                    </div>
+                </div>
+
+
+                <!---------BOX 3------->
+                <div class="homesale__box flex flex-col">
+                    <div  class="homesale__img">
+                        <img src="Image/Frame 52 (2).png" alt="">
+                    </div>
+
+                    <div class="homesale__text bg-white text-center">
+                        <h1  class="font-bold  pt-4">81, Durosimi Etti Avenue</h1>
+                        <p  class="opacity-80 pt-1">81, Durosimi Etti Avenue</p>
+                        <p  class="opacity-80">Lekki, Lagos State</p>
+                        <p  class="opacity-80 pb-4">Studio-#bed ! $35,00 - 3,700</p>
+                    </div>
+                </div>
+
+
+                <!---------BOX 4------->
+                <div class="homesale__box flex flex-col">
+                    <div  class="homesale__img">
+                        <img src="Image/Frame 52 (3).png" alt="">
+                    </div>
+
+                    <div class="homesale__text  bg-white text-center">
+                        <h1  class="font-bold  pt-4">112, Allen Avenue</h1>
+                        <p  class="opacity-80 pt-1">112, Allen Avenue</p>
+                        <p  class="opacity-80">Ikeja, Lagos State</p>
+                        <p  class="opacity-80 pb-4">Studio-#bed ! $35,00 - 3,700</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div  class="text-center justify-center ">
+                <button class="herosale__btn  px-5 py-3  text-white">view more</button>
+            </div>
+
+         </div>
+         <hr  class="p-2 max-w-full"/>
+
+          <!--------HOME FOR RENTAL LISTING SECTION----->
+          <div class="rental  max-w-full pt-10">
+
+            <div class="homesale__heading">
+                <h1 class="font-bold text-center text-3xl">The most rental listings</h1>
+                <p  class="opacity-80 text-lg text-center  pb-6">choose from over 1 million  apartments,houses and condos and townhomes for rent</p>
+            </div>
+
+            <div class="rental__wrapper  flex  items-center justify-center  p-6  ">
+
+
+       <div class="rental__text bg-white max-w-full flex flex-col  text-left">
+      <h1  class="pt-7 font-bold  text-2xl  ">Renting made easy</h1>
+         <p  class="pb-4 pt-2 opacity-60">Browse the highest quality listings, apply online, sign <Br />
+        your lease and pay your rent from any device.
+        </p>
+            <a href="#"  class="text-orange-400">Find Out More</a>
+             </div>
+
+                <div class="rental__img  max-w-full  ">
+                    <img src="Image/Frame 60.png" alt="">
+                </div>
+              
+            </div>
+          </div>
+
+             <!--------HOME FOR SALE SECTION----->
+             <div class="rental  max-w-full pt-20">
+
+                <div class="homesale__heading">
+                    <h1 class="font-bold text-center text-3xl">Easy payment method and tips for renters</h1>
+                    <p  class="opacity-90  text-center  pb-6">Our articles,guide will help you</p>
+                </div>
+    
+                <div class="rental__wrapper  flex  items-center justify-center   ">
+    
+                    <div class="rental__img  max-w-full  ">
+                        <img src="Image/Frame 63.png" alt="">
+                    </div>
+                  
+                    <div class="rental__text bg-white max-w-full flex flex-col  text-left">
+                        <h1  class="pt-7 font-bold  text-2xl text-left ">Need a home loan? get pre-approved</h1>
+                           <p  class="pb-4 pt-2 opacity-60 p-0 ">Find a lender who can offer competitive mortage rate<Br />
+                        and help you with pre_approval
+                          </p>
+                              <a href="#"  class="text-orange-400">Get pre approved now</a>
+                               </div>
+    
+                 
+                </div>
+
+                <div class="rental__wrapper  flex  items-center justify-center  pt-0 ">
+    
+    
+                  <div class="rental__text bg-white max-w-full flex flex-col text-left">
+                        <h1  class="pt-7 font-bold  text-2xl  ">Tips for renters</h1>
+                           <p  class="pb-4 pt-2 opacity-60">Find answer all your renting questions with the best <Br />
+                         renters guide in the world.
+                          </p>
+                              <a href="#"  class="text-orange-400">Browse Articles</a>
+                               </div>
+             
+                             <div class="rental__img  max-w-full  ">
+                                 <img src="Image/Frame 63 (1).png" alt="">
+                             </div>
+                           
+                         </div>
+
+              </div>
+
+
+                 <!--------HOME FOR SALE SECTION----->
+             <div class="rental  max-w-full pt-20">
+
+                <div class="homesale__heading">
+                    <h1 class="font-bold text-center text-3xl">The perfect place to manage your property</h1>
+                    <p  class="opacity-90  text-center  pb-6">Work with the best suit of property management tools in the market</p>
+                </div>
+    
+                <div class="rental__wrapper  flex  items-center justify-center   ">
+    
+                  
+                    <div class="rental__text bg-white max-w-full flex flex-col  text-left">
+                        <h1  class="pt-7 font-bold  text-2xl  ">Advertise your rental</h1>
+                           <p  class="pb-4 pt-2 opacity-60">Connect with millions of renters looking for new homes<Br />
+                        usuing our comprehensive marketing platform.
+                          </p>
+                              <a href="#"  class="text-orange-400">List your property</a>
+                               </div>
+
+                 <div class="rental__img  max-w-full  ">
+                    <img src="Image/Frame 68.png" alt="">
+                </div>
+              
+    
+                 
+                </div>
+
+                <div class="rental__wrapper  flex  items-center justify-center  pt-0 ">
+                    <div class="rental__img  max-w-full  ">
+                        <img src="Image/Frame 67.png" alt="">
+                    </div>
+
+    
+              <div class="rental__text bg-white max-w-full flex flex-col  text-left">
+              <h1  class="pt-7 font-bold  text-2xl  ">Lease 100% online</h1>
+             <p  class="pb-4 pt-2 opacity-60">Accept applications, process rent payments online <Br />
+            and sign digital leases all powered on a single platform
+                 </p>
+          <a href="#"  class="text-orange-400">Manage your property</a>
+                  </div>
+             
+                          
+                           
+                         </div>
+
+              </div>
+
+
+
+              <!--------FOOTER SECTION----->
+
+              <div class="footer container  max-w-full  justify-around flex  items-center  pt-16  bottom-0">
+                
+                <div class="footer__wrapper flex  max-w-full justify-between bg-black gap-4   text-left p-4">
+
+                    <div class="footer__box flex flex-col text-white  w-96">
+                        <h1  class="pb-4"><span class="text-orange-400  text-center">Meda</span>Homes</h1>
+                        <p>Thank you for visting Meda homes  real estate      
+                    we are commited to providing you with the best real estate services that fits you</p>
+    <ul  class="socials flex gap pt-3">
+        <li  class="w-24"><img src="Image/Component 20.png" alt=""></li>
+        <li  class="w-24"><img src="Image/Component 19.png" alt=""></li>
+        <li  class="w-24"><img src="Image/Group.jpg" alt=""></li>
+        <li  class="w-24"><img src="Image/Vector.png" alt=""></li>
+     
+    </ul>
+                    </div>
+
+                    <div class="footer__box  text-white">
+                        <h1  class="font-semibold text-lg">Company</h1>
+                        <ul  class="pt-4  ">
+                        <li  class="pb-1"><a href="#">About</a></li>
+                        <li class="pb-1"><a href="#">Vlog</a></li>
+                        <li class="pb-1"><a href="#">All Products</a></li>
+                        <li class="pb-1"><a href="#">FAQs</a></li>
+                        <li class="pb-1"><a href="#">Contact Us</a></li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class="footer__box  text-white">
+                        <h1  class="font-semibold text-lg">Company</h1>
+                        <ul  class="pt-4  ">
+                        <li  class="pb-1"><a href="#">About</a></li>
+                        <li class="pb-1"><a href="#">Vlog</a></li>
+                        <li class="pb-1"><a href="#">All Products</a></li>
+                        <li class="pb-1"><a href="#">FAQs</a></li>
+                        <li class="pb-1"><a href="#">Contact Us</a></li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class="footer__box  text-white">
+                        <h1  class="font-semibold text-lg">Customer Care</h1>
+                        <ul  class="pt-4  ">
+                        <li  class="pb-1"><a href="#">Loction Map</a></li>
+                        <li class="pb-1"><a href="#">Contact Us</a></li>
+                        <li class="pb-1"><a href="#">Insights</a></li>
+                        <li class="pb-1"><a href="#">Homes</a></li>
+                       
+                        </ul>
+                        
+                    </div>
+
+
+                    <div class="footer__box  text-white">
+                        <h1  class="font-semibold text-lg">Service</h1>
+                        <ul  class="pt-4  ">
+                        <li  class="pb-1"><a href="#">Login</a></li>
+                        <li class="pb-1"><a href="#">Sign U</a></li>
+                        <li class="pb-1"><a href="#">My Account</a></li>
+                        <li class="pb-1"><a href="#">Terms & Condition</a></li>
+                       
+                        </ul>
+                        
+                    </div>
+
+                    
+
+                    
+                </div>
+              </div>
+              
+
+
+    </div>
+    
+
+    <script  src="main.js"></script>
+</body>
+</html>
