@@ -6,6 +6,6 @@ header.style.left = "0px";
 }
 
 function hideMenu() {
-    header.style.left = "-400px";
+    header.style.left = "-420px";
    
     }
